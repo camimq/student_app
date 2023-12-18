@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 
 st.markdown('# Student Performence')
 
-df = pd.read_csv('https://raw.githubusercontent.com/camimq/fiap/master/data_analysis_and_exploration/lives/bases/StudentsPerformance.csv', sep=';')
+df = pd.read_csv('https://raw.githubusercontent.com/camimq/student_app/main/StudentsPerformance.csv', sep=';')
 
 # trazendo a tabela para a aplicação
 st.dataframe(df)
